@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a554ea1-65da-49f8-8f95-ea6f299aec9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GameManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Juego.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Partida.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Propuesta de atributos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/REST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Usuario.java" afterDir="false" />
+    <list default="true" id="8a554ea1-65da-49f8-8f95-ea6f299aec9c" name="Changes" comment="Primer commit">
+      <change afterPath="$PROJECT_DIR$/src/Minim1SebastianPineda.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +60,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698994465278</updated>
-      <workItem from="1698994466353" duration="9838000" />
+      <workItem from="1698994466353" duration="10017000" />
     </task>
+    <task id="LOCAL-00001" summary="Primer commit">
+      <option name="closed" value="true" />
+      <created>1699004460924</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699004460924</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primer commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
