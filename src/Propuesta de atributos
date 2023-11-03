@@ -1,0 +1,18 @@
+Entidad Juego:
+Atributos:
+Identificador
+Descripción
+Número de niveles
+
+Entidad Usuario:
+Atributos:
+Identificador
+
+Entidad Partida:
+Atributos:
+Identificador de la partida
+Identificador del juego
+Identificador del usuario
+Nivel actual
+Puntuación acumulada
+Fecha de inicio de la partida
