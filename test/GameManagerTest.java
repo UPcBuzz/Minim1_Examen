@@ -30,7 +30,7 @@ public class GameManagerTest {
         gm.addJuego(juego2);
     }
     @Test
-    public void testAddUsuario(){ //PREGUNTAR TONI
+    public void testAddUsuario(){
         Usuario usuario1 = new Usuario("1", "Sara", null, 15, null);
         Usuario usuario2 = new Usuario("2", "Anna", null, 10, null);
         gm.addUsuario(String.valueOf(usuario1));
@@ -38,14 +38,14 @@ public class GameManagerTest {
     }
     @Test
     public void testInicioPartida(){
-        // Crear un juego nuevo
+
         Juego juego3 = new Juego(3, "ajedrez", 1, 20);
-        //String j = String.valueOf(juego3);
+
         StringBuilder sb = new StringBuilder();
         sb.append(juego3).append(",");
         String cadenaJ3 = sb.toString();
 
-        // Crear un usuario nuevo
+
         Usuario usuario3 = new Usuario("3", "Toni", null, 0, null);
         StringBuilder sp = new StringBuilder();
         sp.append(juego3).append(",");
@@ -99,14 +99,14 @@ public class GameManagerTest {
     }
     @Test
     public void testPasarNivel() {
-        Partida partida = new Partida("1", new Juego(1, "parchis", 1, 5), new Usuario("1", "Sara", null, 15, null), 1, 10, null);
+        Partida partida = new Partida(1, new Juego(1, "parchis", 1, 5), new Usuario("1", "Sara", null, 15, null), 1, 10, null);
         partida.setPuntuacionAcumulada(5);
         partida.setNivelActual(1);
-        //FALTA BASTANTA IMPLEMENTACIÓ
+
     }
 
     @Test
-    public void testFinalizarPartida() { //PREGUNTAR TONI
+    public void testFinalizarPartida() {
         // Crear un juego nuevo
         Juego juego3 = new Juego(3, "ajedrez", 1, 20);
         StringBuilder sb = new StringBuilder();

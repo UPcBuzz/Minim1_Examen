@@ -9,7 +9,7 @@ public class GameManagerImpl implements GameManager {
     private HashMap<String, Usuario> usuarioHashMap;
     private List<Partida> partidasList;
     public static GameManagerImpl instance = null;
-    private static final Logger logger = LogManager.getLogger(GameManagerImpl.class);
+    private static final Logger logger = Logger.getLogger(GameManagerImpl.class);
 
     private GameManagerImpl() {
         gamesList = new ArrayList<>();
@@ -79,7 +79,7 @@ public class GameManagerImpl implements GameManager {
             logger.info("No existe la partida");
             return;
         }
-        logger.info("Usuario " + idU + " en partida " + partida.getId() + " en nivel " + partida.getNivelActual());
+        logger.info("Usuario " + idU + " en partida " + partida.getID() + " en nivel " + partida.getNivelActual());
     }
 
     @Override
@@ -89,7 +89,7 @@ public class GameManagerImpl implements GameManager {
             logger.info("No existe la partida");
             return;
         }
-        logger.info("Usuario " + UID + " en partida " + partida.getId() + " con los puntos " + partida.getPuntosAcumulados());
+        logger.info("Usuario " + UID + " en partida " + partida.getID() + " con los puntos " + partida.getPuntuacionAcumulada());
     }
 
     @Override
@@ -141,18 +141,49 @@ public class GameManagerImpl implements GameManager {
     }
 
     @Override
-    public List<String> usuariosPorPuntuacion(String identificadorJuego) throws Exception {
-        logger.info("Consultando usuarios por puntuación para el juego: {}", identificadorJuego);
+    public List<String> usuariosPorPuntuacion(String identificadorJuego) {
+        logger.info("Consultando usuarios por puntuación para el juego: "+ identificadorJuego);
 
         return null;
     }
 
     @Override
-    public List<String> partidasUsuario(String identificadorUsuario) throws Exception {
-        logger.info("Consultando partidas del usuario: {}", identificadorUsuario);
+    public List<String> partidasUsuario(String identificadorUsuario) {
+        logger.info("Consultando partidas del usuario: "+ identificadorUsuario);
 
         return null;
     }
+
+    @Override
+    public Juego buscarJuego(String identificadorJuego) {
+        return null;
+    }
+
+    @Override
+    public Usuario buscarUsuario(String identificadorUsuario) {
+        return null;
+    }
+
+    @Override
+    public Partida buscarPartida(String usuarioId) {
+        return null;
+    }
+
+    @Override
+    public Usuario getUser(String idUser) {
+        return null;
+    }
+
+    @Override
+    public Usuario addUsuario(String idUser) {
+        return null;
+    }
+
+    @Override
+    public int getListaPartidas() {
+        return 0;
+    }
+
     public void clear(){
         partidasList.clear();
         usuarioHashMap.clear();

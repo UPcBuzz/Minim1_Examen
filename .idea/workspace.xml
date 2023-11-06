@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a554ea1-65da-49f8-8f95-ea6f299aec9c" name="Changes" comment="Tercer commit">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8a554ea1-65da-49f8-8f95-ea6f299aec9c" name="Changes" comment="Cuarto commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minim1SebastianPineda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Minim1SebastianPineda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/GameManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/REST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/REST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,18 +22,33 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "UPcBuzz"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a3cb486-72ce-415d-acaa-96b90d0aaf90" />
+        <option name="url" value="https://github.com/UPcBuzz/Minim1_Examen.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XefS6RwTGdotOhgeW1nIoKQ15L" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +61,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -56,6 +77,31 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sebas\IdeaProjects\Minim1SebastianPineda" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GameManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Minim1SebastianPineda" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GameManagerTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,7 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1698994465278</updated>
-      <workItem from="1698994466353" duration="10876000" />
+      <workItem from="1698994466353" duration="11248000" />
+      <workItem from="1699219540569" duration="2057000" />
     </task>
     <task id="LOCAL-00001" summary="Primer commit">
       <option name="closed" value="true" />
@@ -91,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699004645380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tercer commit">
+      <option name="closed" value="true" />
+      <created>1699005426383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699005426383</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Cuarto commit">
+      <option name="closed" value="true" />
+      <created>1699005520873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699005520873</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +164,8 @@
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Segundo commit" />
     <MESSAGE value="Tercer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tercer commit" />
+    <MESSAGE value="Cuarto commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cuarto commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
